@@ -623,14 +623,47 @@
 .rbkpointsImage {
   width: 80px;
   height: 80px;
-
   border-radius: 50%;
   padding: 5px;
-  /* background-color: #102030;
-  box-shadow: 0 7px 35px rgba(0, 0, 0, 0.07); */
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.rbkpointsImage i {
+  font-size: 36px;
+  color: #CE4420;
+}
+
+.brand-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #102030;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.brand-section-title span {
+  color: #CE4420;
+  font-style: italic;
+  text-transform: none;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.brand-section-title::before,
+.brand-section-title::after {
+  content: "";
+  height: 1px;
+  width: 50px;
+  background-color: #ccc;
+  display: inline-block;
 }
 
 .rbkpointsImage img {
