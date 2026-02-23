@@ -31,11 +31,11 @@
 
 .main-heading {
   font-size: 40px;
-  text-align: center; 
+  text-align: center;
   padding: 20px 0 5px;
-  margin: 0 0 10px; 
+  margin: 0 0 10px;
   line-height: 50px;
-  position: relative; 
+  position: relative;
   text-transform: uppercase;
   z-index: 9;
 }
@@ -133,13 +133,13 @@
   z-index: 999;
 } */
 
- 
+
 
 .below-banner {
   position: absolute;
   bottom: 0;
   right: 0;
-  left: 0; 
+  left: 0;
 }
 
 .carousel-item {
@@ -187,8 +187,8 @@
 
 
 
- 
- /* .carousel-item img { 
+
+/* .carousel-item img { 
   text-align:center;
   background: none;
   -webkit-animation: zoomout 10s ease-in infinite;
@@ -344,7 +344,7 @@ body[data-aos-duration="450"] [data-aos] {
   }
 }
 
- 
+
 .inner-img {
   position: relative;
   z-index: 9;
@@ -363,20 +363,23 @@ body[data-aos-duration="450"] [data-aos] {
   z-index: -1;
 }
 
-.inner-dsc{
+.inner-dsc {
   padding: 25px;
   background-color: #fff;
   text-align: center;
 }
+
 .inner-dsc .heading {
-padding: 0 0 15px;
-margin: 0;
-font-size: 2.2rem;
+  padding: 0 0 15px;
+  margin: 0;
+  font-size: 2.2rem;
 }
+
 .inner-dsc p {
   padding: 20px 0 0;
- 
-  }
+
+}
+
 .why-choose {
   position: relative;
 }
@@ -597,7 +600,7 @@ ul.nav.nav-pills.nav-stacked.flex-column {
 
 
 
- 
+
 
 
 
@@ -757,7 +760,7 @@ ul.nav.nav-pills.nav-stacked.flex-column {
   color: #fff;
 }
 
-.naccs .menu div { 
+.naccs .menu div {
   position: relative;
   display: inline-block;
   text-transform: uppercase;
@@ -780,7 +783,7 @@ ul.nav.nav-pills.nav-stacked.flex-column {
 
 
 ul.nacc {
-  position: relative; 
+  position: relative;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -791,7 +794,7 @@ ul.nacc {
 ul.nacc li {
   opacity: 0;
   transform: translateX(50px);
- 
+
   list-style: none;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
   display: none;
@@ -811,8 +814,8 @@ ul.nacc li p {
   display: flex;
 }
 
-ul.nacc li p i{
-width: 30px;
+ul.nacc li p i {
+  width: 30px;
 }
 
 .tab-inner img {
@@ -854,7 +857,7 @@ width: 30px;
   height: 230px;
 }
 
- 
+
 @media(max-width:990px) {
   .bg-wheat {
     left: 0;
@@ -1001,11 +1004,12 @@ width: 30px;
   .naccs .menu div {
     width: 47%;
   }
-  .naccs .menu div { 
+
+  .naccs .menu div {
     padding: 10px 10px;
     border-radius: 5px;
-    min-width: 100px; 
-}
+    min-width: 100px;
+  }
 }
 
 
@@ -1019,16 +1023,18 @@ width: 30px;
   background-size: cover;
   position: relative;
 }
+
 .inner-banner:before {
   content: '';
   position: absolute;
-  background: linear-gradient( to right, rgba(255, 255, 255, 1) 4%, rgba(255, 255, 255, 1) 7%, rgba(255, 255, 255, 0.21) 80%, rgba(255, 255, 255, 0) 85%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 4%, rgba(255, 255, 255, 1) 7%, rgba(255, 255, 255, 0.21) 80%, rgba(255, 255, 255, 0) 85%);
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
 }
-.banner-heading { 
+
+.banner-heading {
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
@@ -1071,16 +1077,19 @@ width: 30px;
   color: #102030;
   margin: 0;
 }
+
 .location-block p {
   display: flex;
 }
 
-.location-block p i{
- width: 30px;
+.location-block p i {
+  width: 30px;
 }
-.location-block p a { 
+
+.location-block p a {
   flex: 1;
 }
+
 .country-name {
   display: flex;
   align-items: center;
@@ -1138,7 +1147,7 @@ width: 30px;
 
 
 
- 
+
 
 .list-style {
   margin-bottom: 30px;
@@ -1152,7 +1161,7 @@ width: 30px;
 }
 
 
- 
+
 .business-area-block {
   background-color: #10203008;
 }
@@ -1160,7 +1169,7 @@ width: 30px;
 
 
 .owl-item .item {
-  transform: translate3d(0, 0, 0); 
+  transform: translate3d(0, 0, 0);
   transform: scale(0.9);
   transition: all .25s ease-in-out;
 }
@@ -1455,10 +1464,10 @@ width: 30px;
     left: 0;
     margin: 0 auto;
   } */
-  .tab-inner h2 { 
+  .tab-inner h2 {
     font-size: 22px;
     padding: 15px 0 10px;
-}
+  }
 
 
   ul.nacc {
@@ -1563,7 +1572,7 @@ width: 30px;
 
 
 @media (max-width: 767px) {
-  
+
 
   .location-block {
     padding: 20px 10px;
@@ -1574,24 +1583,28 @@ width: 30px;
   }
 }
 
-.productinner .rbkpoints{
+.productinner .rbkpoints {
   flex-direction: column;
   align-items: unset;
   box-shadow: none;
   background-color: transparent;
 }
-.productinner .sub-heading{
+
+.productinner .sub-heading {
   padding-top: 15px;
 }
-.productinner .rbkpoints::before{
+
+.productinner .rbkpoints::before {
   background-color: transparent;
 }
-.productinner .rbkpointsNewImage img{
-width: 100%;
+
+.productinner .rbkpointsNewImage img {
+  width: 100%;
 }
+
 .productinner .rbkpointsDsc p {
   -webkit-line-clamp: unset;
-  overflow: visible; 
+  overflow: visible;
   display: block;
 }
 
@@ -1600,22 +1613,26 @@ width: 100%;
   justify-content: center;
   margin: 0 0 25px;
 }
+
 .tab-content>.active {
   background-color: rgba(8, 33, 100, 0.031);
   padding: 20px;
 }
+
 #v-pills-tab .nav-link {
-  display: block; 
+  display: block;
   border: 1px solid #102030;
   margin: 0 0 0px;
   color: #102030;
   text-decoration: none;
 }
+
 #v-pills-tab .nav-link:hover {
   background-color: #102030;
   color: #fff;
 
 }
+
 #v-pills-tab .nav-link.active {
   background-color: #102030;
   color: #fff;
@@ -1623,6 +1640,60 @@ width: 100%;
 }
 
 
-.tab-pane  .sub-heading {
+.tab-pane .sub-heading {
   padding-top: 0px;
+}
+
+/* Bubbles Animation for Footer Link */
+.bubbles-link {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.bubbles-link:hover {
+  color: #ffd700;
+}
+
+.bubbles-link::before {
+  content: '';
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  box-shadow:
+    15px -10px 0 2px rgba(255, 255, 255, 0.6),
+    35px -25px 0 3px rgba(255, 255, 255, 0.7),
+    55px -10px 0 1px rgba(255, 255, 255, 0.5),
+    75px -30px 0 4px rgba(255, 255, 255, 0.8),
+    95px -15px 0 2px rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.bubbles-link:hover::before {
+  animation: riseAndPop 1s ease-in forwards;
+}
+
+@keyframes riseAndPop {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.5);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) scale(1.5);
+  }
 }
